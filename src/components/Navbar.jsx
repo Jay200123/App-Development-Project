@@ -1,12 +1,13 @@
 import React from "react";
 import icon from "../images/download.png"
+import { Route, Routes } from "react-router-dom";
 
 function Navbar(){
 
     return(
         <nav className="navbar">
             <img className="nav-img" src={icon} alt="App Development"/>
-            <h3 className="nav-header">App Development Project</h3> 
+            <h3 className="nav-header">App Development and Emerging Technologies</h3> 
 
             <ul className="nav-menu">
                 <li className="fa fa-home" aria-hidden="true"></li>Home
