@@ -1,10 +1,21 @@
-import Main from "./components/Main";
+import About from "./components/About";
+import LandingPage from "./components/LandingPage";
 import "./styles/styles.css"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Main/>
+      <BrowserRouter>
+      <Routes>
+
+        <Route index element={<LandingPage/>}/>
+        <Route path="/" element={<LandingPage/>}/>
+        <Route path="/about" element={<About/>}/>
+
+      </Routes>
+      </BrowserRouter>
+      {/* <Main/> */}
     </div>
   );
 }

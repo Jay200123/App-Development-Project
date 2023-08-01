@@ -1,17 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
-import LandingPage from "./LandingPage";
 import Footer from "./Footer";
 
-function Main(){
+
+export default function About(){
 
     return(
         <div>
             <Navbar/>
-            <LandingPage/>
+            <h3>Info About the Web Developers!</h3>
             <Footer/>
         </div>
     )
 }
-
-export default Main
