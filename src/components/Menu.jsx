@@ -10,6 +10,7 @@ export default function Menu(){
 
     }
 
+
     return(
         <div class="menu">
         <div class="dropdown">
@@ -20,8 +21,8 @@ export default function Menu(){
 
           <div class="dropdown-content">
             <a><i className="fa fa-file" aria-hidden="true"></i><Link to="/page">Page 1</Link></a>
-            <a><Link>Hi!</Link></a>
-            <a><Link>Hi!</Link></a>
+            <a><Link to="/page2">Page 2</Link></a>
+            <a><Link to="/page3">Page 3</Link></a>
           </div>
         </div>
 
