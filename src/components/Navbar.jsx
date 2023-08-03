@@ -27,7 +27,8 @@ function Navbar(){
                     </li>   
 
                 <li className="fa fa-mobile" aria-hidden="true">
-                    </li>Contact Us
+                    <Link to="/contact" style={links}>Contact Us</Link>
+                    </li>
             </ul>  
         </nav>
     )

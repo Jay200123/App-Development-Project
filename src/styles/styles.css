@@ -125,3 +125,55 @@ footer{
     font-style: bold;
 }
 
+.contact-forms{
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius:5px;
+	background-color: white;
+	border: solid black;
+    height: 450px;
+    width: 350px;
+    border-radius: 15px;
+    
+}
+
+.form-control{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+.text-control{
+    height: 150px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+label{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form-headers{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(360deg, rgba(224,224,235,1) 0%, rgba(219,229,231,0.9836309523809523) 50%, rgba(0,212,255,1) 100%);
+    justify-content: center;
+    height: 40px;
+}
+
+.forms-img{
+    max-width: 30px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
