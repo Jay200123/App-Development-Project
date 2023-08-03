@@ -10,10 +10,6 @@ import Footer from "../components/Footer"
 
 export default function Page(){
 
-    // const bg= {
-    //     backgroundColor:"blue"
-    // }
-
     return(
         <main>
             <Navbar/>
