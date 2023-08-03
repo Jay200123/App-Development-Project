@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Menu(){
 
     const style = {
-        fontSize:15,
-        margin:5
+        fontSize:16,
+        margin:0
         
 
     }
@@ -13,12 +14,14 @@ export default function Menu(){
         <div class="menu">
         <div class="dropdown">
           <button class="dropbtn">
-          <i style={style} className="fa fa-list-ul" aria-hidden="true"></i>Activities
+          <i style={style} className="fa fa-list-ul" aria-hidden="true">Activities</i>
             <i class="fa fa-caret-down"></i>
           </button>
 
           <div class="dropdown-content">
-            <a> test test test</a>
+            <a><i className="fa fa-file" aria-hidden="true"></i><Link to="/page">Page 1</Link></a>
+            <a><Link>Hi!</Link></a>
+            <a><Link>Hi!</Link></a>
           </div>
         </div>
 
