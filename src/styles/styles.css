@@ -78,3 +78,50 @@ footer{
     color: black;
     bottom: 0;
 }
+
+.profile-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+
+}
+
+.profile-title{
+    font-size: 20px ;
+    margin: 5px;
+    text-decoration: underline;
+    color: gray;
+}
+
+.profile-information{
+    text-align: left;
+    margin: 5px;
+}
+
+
+
+.profile-info{
+    text-align: left;
+    padding: 5px;
+}
+
+.profile-img{
+    
+    margin: 10px;
+    max-width: 350px;
+    height: 250px;
+    border-radius: 50%;
+    
+    
+  
+}
+
+.profile-container p{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: bold;
+}
+
