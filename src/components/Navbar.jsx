@@ -1,6 +1,7 @@
 import React from "react";
 import icon from "../images/download.png"
 import { Link } from "react-router-dom";
+import Menu from "./Menu";
 
 
 function Navbar(){
@@ -16,7 +17,13 @@ function Navbar(){
         <nav className="navbar">
             <img className="nav-img" src={icon} alt="App Development"/>
             <h3 className="nav-header">App Development and Emerging Technologies</h3> 
+
+          
+
             <ul className="nav-menu">
+                  <Menu/>
+
+
                 <li className="fa fa-home" aria-hidden="true">
                     <Link to="/" style={links}>Home</Link>
                 </li>
